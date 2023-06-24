@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Ojcee Portfolio-Project</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- add logo image first  -->
+          <img src="/images/p.jpeg" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header"> Home</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#services"> Services</a></li>
+            <li><a href="#portfolio"> Portfolio</a></li>
+            <li><a href="#contact"> Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer</p>
+          <h1>
+            Hello. I am <span> Jennifer</span> <br />
+            From Nigeria
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/images/p.jpeg" alt="" />
+          </div>
+          <!-- add an image of urcv here -->
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              
+              A sound individual who is passionate about working in an I.T, am an accountant by profession but not a practicing accountant, am presently a product owner.scrum master, I joined Alx with no knowlege of coding, but with the knowlege Alx has impacted in me i can boldly say i have a full knowlege in software engineer.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links  active-link" onclick="expandtab('skills')" >Skills</p>
+              <p class="tab-links"  onclick="expandtab('experience')">Experience</p>
+              <p class="tab-links"  onclick="expandtab('education')">Education</p>
+            </div>
+            <br />
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Software Dev</span> <br />
+                  Developing Softwares
+                </li>
+                <li>
+                  <span>App Dev</span> <br />
+                  Developing Apps
+                </li>
+                <li>
+                  <span>Web Dev</span> <br />
+                  Developing Web
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2020 - 2021</span> <br />
+                  Boyfriend at Boyfriend association of Nigeria
+                </li>
+                <li>
+                  <span>App Dev</span> <br />
+                  Developing Apps
+                </li>
+                <li>
+                  <span>Web Dev</span> <br />
+                  Developing Web
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Software Dev</span> <br />
+                  Developing Softwares
+                </li>
+                <li>
+                  <span>App Dev</span> <br />
+                  Developing Apps
+                </li>
+                <li>
+                  <span>Web Dev</span> <br />
+                  Developing Web
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<br>
+    <!-- __________servives -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title"> My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fas fa-code"></i>
+        <h2>Web Development</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id, debitis atque veritatis perspiciatis, tempora, dolor blanditiis ad harum iusto iste nemo. Aperiam totam consequuntur facilis? Atque officia officiis minus.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fas fa-crop"></i>
+        <h2>App Development</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id, debitis atque veritatis perspiciatis, tempora, dolor blanditiis ad harum iusto iste nemo. Aperiam totam consequuntur facilis? Atque officia officiis minus.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fab fa-app-store"></i>
+        <h2>Other Development</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id, debitis atque veritatis perspiciatis, tempora, dolor blanditiis ad harum iusto iste nemo. Aperiam totam consequuntur facilis? Atque officia officiis minus.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- ----portfolio -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title"> My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="./images/piedit.png" alt="">
+        <div class="layer">
+          <h3> E commerce App</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quisquam asperiores ab dolore vero nobis in ad commodi dignissimos officiis natus perferendis, magni tempora sapiente assumenda repellendus, soluta repellat maxime!</p>
+          <a href=""><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./images/piedit.png" alt="">
+        <div class="layer">
+          <h3> E commerce App</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quisquam asperiores ab dolore vero nobis in ad commodi dignissimos officiis natus perferendis, magni tempora sapiente assumenda repellendus, soluta repellat maxime!</p>
+          <a href=""><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./images/piedit.png" alt="">
+        <div class="layer">
+          <h3> E commerce App</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quisquam asperiores ab dolore vero nobis in ad commodi dignissimos officiis natus perferendis, magni tempora sapiente assumenda repellendus, soluta repellat maxime!</p>
+          <a href=""><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">Click Me </a>
+
+  </div>
+</div>
+    
+<!-- ------contact  -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">  Contact Me</h1>
+        <p><i class="fa fa-paper-plane"></i> ohjacee@gmail.com</p>
+        <p> <i class="fas fa-phone-square-alt"></i> +2348030453003</p>
+        <div class="social-icons">
+          <a href="https://facebook.com"> <i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com/OttyzJ"> <i class="fab fa-twitter"></i></a>
+          <a href=""> <i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ottis-jennifer-b21b94231"> <i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="Ottis Jennifer main CV.pdf" download class="btn btn2  " >Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet" action="">
+          <input type="text" name="Name" placeholder="Enter your Name" required>
+          <input type="email" name="Email" id="" placeholder="Enter your Email" required>
+          <textarea name="Message" id=""  rows="6" placeholder="Enter Your Message Here"></textarea>
+          <button class="btn btn2" type="submit">Submit</button>
+        </form>
+        <span id="msg">Thank You</span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; ojcee. Made with  <i class="fas fa-heart"></i> </p>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
